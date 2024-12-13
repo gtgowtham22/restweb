@@ -1,0 +1,86 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #menu-list-buttons {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  #menu-list-buttons a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+  }
+  
+  #menu {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  #menu-list {
+    max-height: 200px; /* Set the height for the scrollable area */
+    overflow-y: auto;  /* Enables vertical scrolling when content exceeds max-height */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  #menu-list a.cta-button {
+    background-color: #FB3569;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  #menu-list a.cta-button:hover {
+    background-color: #e63258;
+  }
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #270f34;
+    color: #fff;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

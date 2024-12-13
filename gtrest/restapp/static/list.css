@@ -1,0 +1,79 @@
+/* Basic reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Menu section */
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+/* Menu item styles */
+.menu-item {
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.food-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Menu item title and description */
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}

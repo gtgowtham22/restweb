@@ -1,0 +1,87 @@
+/* Basic reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Body and background */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Team section */
+#team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 40px;
+}
+
+/* Each team member */
+.team-member {
+    text-align: center;
+}
+
+.photo-holder {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%; /* Circle shape */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+}
+
+.circle-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Name and Role styling */
+.name {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.role {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
